@@ -17,6 +17,14 @@
     font-size:var(--font-size);
 }*/
 
+code{
+    font-family: 'Courier New', Courier, monospace;
+    color:#FFFFFF;
+    background-color: #212121;
+    padding:0.25em;
+    border-radius:4px;
+}
+
 :root{
     background-color: #212121;
     --border-radius: 3px;
@@ -302,8 +310,8 @@ header#ip div.w{
     border-radius: var(--border-radius);
     /*width: min(30vw, 12em);*/
     /*width: min(20vw, var(--pfp-size));*/
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
 }
 
 .item-header-text {
@@ -319,3 +327,22 @@ header#ip div.w{
     text-shadow: 0 4px 4px rgb(0 0 0 / 30%);
     margin-bottom:.25em;
 }
+
+.subitem-header {
+    /*font-size: calc(min(calc(min(10vw, var(--pfp-size))),3em));*/
+    /*font-size: calc(min(15vw,4em));*/
+    font-size: 1em;
+    align-self: left;
+    display: inline-flex;
+    width: auto;
+    
+    font-family: ubuntu;
+    color: white;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 30%);
+    margin-bottom:.25em;
+    user-select: none;
+}
+.option_item{
+    margin-bottom:0.3em;
+}
+
